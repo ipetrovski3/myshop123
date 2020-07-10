@@ -1,0 +1,13 @@
+
+  <ul class="product">
+    <li class="product">
+      <div class="card">
+        <%= image_tag(product.main_image, height:"230", width:"260" ) if product.main_image.present? %>
+        <h1><%= product.name %></h1>
+        <p class="price"><%= product.price %>ден</p>
+        <p><button>Нарачај</button></p>
+      </div>
+     </li>
+
+
+
